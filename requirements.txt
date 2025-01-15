@@ -1,0 +1,4 @@
+uvicorn
+fastapi_offline
+pydantic
+rocket-python
