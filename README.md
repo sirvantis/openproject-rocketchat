@@ -11,7 +11,11 @@
     git clone https://github.com/sirvantis/openproject-rocketchat/
     ```
 2. Edit app.py with your op_project_root_url, rocket_username, rocket_password, rocket_url
-2. Create docker image
+3. Create docker image
     ```shell
     docker build . -t openproject-rocketchat:1.0
+    ```
+4. Start docker compose
+    ```shell
+    docker compose up -d
     ```
