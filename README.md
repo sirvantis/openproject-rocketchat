@@ -10,3 +10,7 @@
     ```
     git clone https://github.com/sirvantis/openproject-rocketchat/
     ```
+2. Create docker image
+```shell
+docker build .
+```
