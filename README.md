@@ -13,5 +13,5 @@
 2. Edit app.py with your op_project_root_url, rocket_username, rocket_password, rocket_url
 2. Create docker image
     ```shell
-    docker build -t openproject-rocketchat:1.0
+    docker build . -t openproject-rocketchat:1.0
     ```
