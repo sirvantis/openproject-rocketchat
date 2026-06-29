@@ -8,4 +8,7 @@ services:
     container_name: openproject-rocketchat
     ports:
       - "8000:8000"  # приложение использует порт 8000
+    volumes:
+      - ./app.py:/app/app.py  # для живой разработки, чтобы не пересобирать
+      - ./requirements.txt:/app/requirements.txt
     restart: unless-stopped
