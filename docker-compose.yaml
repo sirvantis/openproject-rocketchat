@@ -4,3 +4,5 @@ services:
         ports:
             - 8000:8000
         image: openproject-rocketchat:1.0
+        volumes:
+            - ./app.py:/app/app.py  # для живой разработки, чтобы не пересобирать
